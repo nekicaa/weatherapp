@@ -1,12 +1,12 @@
-/*
-  Styles from this codepen:
-  https://codepen.io/official_naveen/pen/rgknI
-*/
-
 body {
     width: 800px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    background-image: url("bkground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .container {
     width: 600px;
@@ -55,7 +55,8 @@ body {
     border-bottom:1px solid #ddd;
   }
   .ghost-button {
-    background-color: transparent;
+    background-color: white;
+    opacity: 0.5;
     border:2px solid #ddd;
     padding:10px 30px;
     width: 100%;
@@ -65,10 +66,15 @@ body {
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
+    color: black;
+
   }
   .ghost-button:hover {
     border:2px solid #515151;
+    opacity: 0.8;
+    font-size: large;
   }
   p {
-    color: #E64A19;
+    background-color: transparent;
+    color: rgb(253, 170, 36);
   }
